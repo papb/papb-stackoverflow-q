@@ -11,7 +11,7 @@ module.exports = function(config) {
         ],
         preprocessors: {
             "test/*.js": [ "browserify" ],
-            "lib/*.js": [ "babel" ]
+            "lib/*.js": [ "browserify" ]
         },
         reporters: ["progress", "coverage"],
         coverageReporter: {
